@@ -15,7 +15,7 @@
       "enabled": true
     },
     {
-      "matchLanguages": ["javascript"],
+      "matchLanguages": ["js"],
       "matchPackagePatterns": ["^@fluencelabs/*"],
       "groupName": "Fluence JS",
       "enabled": true
