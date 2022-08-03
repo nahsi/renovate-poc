@@ -5,13 +5,17 @@
   ],
   "packageRules": [
     {
+      "matchPackagePatterns": ["*"],
+      "enabled": false
+    },
+    {
       "matchLanguages": ["rust"],
       "matchPackageNames": ["marine-rs-sdk","marine-rs-sdk-test"],
       "groupName": "Marine Rust SDK"
     },
     {
       "matchLanguages": ["npm"],
-      "matchPackagePatterns": ["^@fluencelabs/.*"],
+      "matchPackagePatterns": ["^@fluencelabs/*"],
       "groupName": "Fluence JS"
     }
   ]
