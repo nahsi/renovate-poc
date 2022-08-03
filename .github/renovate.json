@@ -13,6 +13,6 @@
       "matchLanguages": ["npm"],
       "matchPackagePatterns": ["^@fluencelabs/.*"],
       "groupName": "Fluence JS"
-    },
+    }
   ]
 }
